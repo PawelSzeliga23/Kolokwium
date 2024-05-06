@@ -16,7 +16,7 @@ public class MedicamentRepository : IMedicamentRepository
     public Medicament? GetMedicamentById(int id)
     {
         Medicament medicament = null;
-        using var connection = new SqlConnection(_configuration["ConnectionString:DefaultConnection"]);
+        using var connection = new SqlConnection(_configuration["ConnectionStrings:DefaultConnection"]);
         connection.Open();
         using var command =
             new SqlCommand("SELECT IdMedicament,Name, Description,Type FROM MEDICAMENT WHERE IdMedicament = @Id",

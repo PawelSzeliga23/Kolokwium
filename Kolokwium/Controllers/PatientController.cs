@@ -18,7 +18,7 @@ public class PatientController : ControllerBase
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public IActionResult DeletePatient([FromQuery] int id)
     {
-        var rows = _service.deletePatient(id);
-        return Ok(rows);
+        /*var rows = _service.deletePatient(id);*/
+        return Ok();
     }
 }
