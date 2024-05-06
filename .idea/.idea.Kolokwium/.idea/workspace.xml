@@ -9,15 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4e555af-a65f-41a5-809b-d929e850b721" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kolokwium.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kolokwium/Kolokwium.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kolokwium/Kolokwium.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kolokwium/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kolokwium/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kolokwium/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kolokwium/appsettings.json" afterDir="false" />
+    <list default="true" id="b4e555af-a65f-41a5-809b-d929e850b721" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/Kolokwium/Controllers/MedicamentController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kolokwium/Exceptions/NotFoundException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kolokwium/Models/Medicament.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kolokwium/Models/Prescription.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kolokwium/Repository/MedicamentRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kolokwium/Repository/PrescriptionRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kolokwium/Services/MedicamentService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Kolokwium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Kolokwium/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kolokwium/Kolokwium.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Kolokwium/Kolokwium.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kolokwium/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Kolokwium/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Kolokwium: IIS Express">
+  <component name="RunManager" selected=".NET Launch Settings Profile.Kolokwium: http">
     <configuration name="Kolokwium: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Kolokwium/Kolokwium.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -105,8 +107,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714977711394</updated>
-      <workItem from="1714977712605" duration="611000" />
+      <workItem from="1714977712605" duration="4117000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1714978355979</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714978355979</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,5 +126,7 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>

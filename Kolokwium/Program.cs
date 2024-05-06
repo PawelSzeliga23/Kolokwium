@@ -1,3 +1,6 @@
+using Kolokwium;
+using Kolokwium.Repository;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddControllers();
+builder.Services.AddScoped<IMedicamentService,MedicamentService>();
+builder.Services.AddScoped<IPrescriptionRepository,PrescriptionRepository>();
+builder.Services.AddScoped<IMedicamentRepository,MedicamentRepository>();
 
 var app = builder.Build();
 
